@@ -2,6 +2,9 @@
 adds an image to gd from geometrize JSONs.
 
 ## how to run
+- get [geode](https://geode-sdk.org/install/).
+- get the mod `WSLiveEditor`. this will let the app interface with the gd editor.
+- enter a level. the image will paste at the beginning of the level, so pan the camera there.
 - go to [geometrize](https://www.samcodes.co.uk/project/geometrize-haxe-web/).
 - click `open image` and add an image.
 - click `settings` (above the canvas).
