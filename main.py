@@ -3,7 +3,7 @@ import sys
 from colorsys import rgb_to_hsv
 from websockets.sync.client import connect
 
-CIRCLE_ID = 1764
+CIRCLE_ID = 3802
 CIRCLE_TYPE = [32, 5]
 DRAW_SCALE = 1
 
@@ -48,7 +48,7 @@ for index, item in enumerate(geo):
         "2": x / DRAW_SCALE, # x
         "3": height - (y / DRAW_SCALE) - 1, # y
         "25": index, # z order
-        "32": item["data"][2] / DRAW_SCALE / 4, # scale
+        "32": item["data"][2] / DRAW_SCALE / 8, # scale
         "21": 10, # color channel
         "22": 10, # color channel
         "41": 1, # color checked
